@@ -1,0 +1,13 @@
+
+#关于rabbitmq 的设置，消息发送者和消息接收者配置都是一样的 name和port 需要不同
+spring:
+  application:
+    name: biz-publisher
+  rabbitmq:
+    host: localhost
+    password: liyiruo
+    username: liyiruo
+    port: 5672
+
+server:
+  port: 8071
